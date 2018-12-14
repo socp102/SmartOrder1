@@ -94,7 +94,7 @@
 		7039097D73F9A718EA36E5D5 /* Pods_SmartOrder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartOrder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4F86D321B1227B0079C7C9 /* ReservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReservationViewController.swift; path = SmartOrder/Reservation/ReservationViewController.swift; sourceTree = SOURCE_ROOT; };
 		9B4F86D521B13F130079C7C9 /* SmartOrder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmartOrder.entitlements; sourceTree = "<group>"; };
-		9BD1EEF1218CA3C9004AB970 /* SmartOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD1EEF1218CA3C9004AB970 /* SmartOrder1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartOrder1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD1EEF4218CA3C9004AB970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BD1EEF9218CA3C9004AB970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BD1EEFB218CA3CA004AB970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -262,7 +262,7 @@
 		9BD1EEF2218CA3C9004AB970 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9BD1EEF1218CA3C9004AB970 /* SmartOrder.app */,
+				9BD1EEF1218CA3C9004AB970 /* SmartOrder1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -457,9 +457,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9BD1EEF0218CA3C9004AB970 /* SmartOrder */ = {
+		9BD1EEF0218CA3C9004AB970 /* SmartOrder1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BD1EF03218CA3CA004AB970 /* Build configuration list for PBXNativeTarget "SmartOrder" */;
+			buildConfigurationList = 9BD1EF03218CA3CA004AB970 /* Build configuration list for PBXNativeTarget "SmartOrder1" */;
 			buildPhases = (
 				131F120C86997ADA33F60160 /* [CP] Check Pods Manifest.lock */,
 				9BD1EEED218CA3C9004AB970 /* Sources */,
@@ -472,9 +472,9 @@
 			);
 			dependencies = (
 			);
-			name = SmartOrder;
+			name = SmartOrder1;
 			productName = SmartOrder;
-			productReference = 9BD1EEF1218CA3C9004AB970 /* SmartOrder.app */;
+			productReference = 9BD1EEF1218CA3C9004AB970 /* SmartOrder1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -500,7 +500,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9BD1EEEC218CA3C9004AB970 /* Build configuration list for PBXProject "SmartOrder" */;
+			buildConfigurationList = 9BD1EEEC218CA3C9004AB970 /* Build configuration list for PBXProject "SmartOrder1" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -513,7 +513,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9BD1EEF0218CA3C9004AB970 /* SmartOrder */,
+				9BD1EEF0218CA3C9004AB970 /* SmartOrder1 */,
 			);
 		};
 /* End PBXProject section */
@@ -897,7 +897,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9BD1EEEC218CA3C9004AB970 /* Build configuration list for PBXProject "SmartOrder" */ = {
+		9BD1EEEC218CA3C9004AB970 /* Build configuration list for PBXProject "SmartOrder1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BD1EF01218CA3CA004AB970 /* Debug */,
@@ -906,7 +906,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BD1EF03218CA3CA004AB970 /* Build configuration list for PBXNativeTarget "SmartOrder" */ = {
+		9BD1EF03218CA3CA004AB970 /* Build configuration list for PBXNativeTarget "SmartOrder1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BD1EF04218CA3CA004AB970 /* Debug */,
