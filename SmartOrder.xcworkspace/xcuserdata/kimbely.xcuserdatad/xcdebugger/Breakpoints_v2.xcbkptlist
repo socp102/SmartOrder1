@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartOrder/Member/InformationLists/InformationTableViewController.swift"
+            timestampString = "566343700.540768"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartOrder/Member/InformationLists/InformationTableViewController.swift"
+            timestampString = "566343700.5412509"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "InformationTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartOrder.InformationTableViewController.email.getter : weak Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "SmartOrder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimbely/Desktop/SmartOrder/SmartOrder/Member/InformationLists/InformationTableViewController.swift"
+                  timestampString = "566282242.719295"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartOrder.InformationTableViewController.email.setter : weak Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "SmartOrder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimbely/Desktop/SmartOrder/SmartOrder/Member/InformationLists/InformationTableViewController.swift"
+                  timestampString = "566282242.7249269"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartOrder.InformationTableViewController.init(style: __C.UITableViewStyle) -&gt; SmartOrder.InformationTableViewController"
+                  moduleName = "SmartOrder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimbely/Desktop/SmartOrder/SmartOrder/Member/InformationLists/InformationTableViewController.swift"
+                  timestampString = "566282242.7284451"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartOrder.InformationTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SmartOrder.InformationTableViewController"
+                  moduleName = "SmartOrder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimbely/Desktop/SmartOrder/SmartOrder/Member/InformationLists/InformationTableViewController.swift"
+                  timestampString = "566282242.731424"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "364">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartOrder.InformationTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SmartOrder.InformationTableViewController&gt;"
+                  moduleName = "SmartOrder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimbely/Desktop/SmartOrder/SmartOrder/Member/InformationLists/InformationTableViewController.swift"
+                  timestampString = "566282242.734154"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "348">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

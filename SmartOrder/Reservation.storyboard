@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DuX-1c-zVF">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--候位-->
+        <scene sceneID="Lds-os-I5X">
+            <objects>
+                <viewController id="DuX-1c-zVF" customClass="ReservationViewController" customModule="SmartOrder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N5F-22-85v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDJ-73-5Tz">
+                                <rect key="frame" x="141.5" y="318.5" width="92" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="現場候位取號"/>
+                                <connections>
+                                    <action selector="getNumber:" destination="DuX-1c-zVF" eventType="touchUpInside" id="c0y-0u-ewq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fE5-Gn-6NW">
+                                <rect key="frame" x="179" y="228.5" width="17" height="50"/>
+                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="目前號碼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mvo-bp-6br">
+                                <rect key="frame" x="152.5" y="167.5" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJI-fX-pQk">
+                                <rect key="frame" x="175" y="449.5" width="25" height="50"/>
+                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您的號碼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PnU-rT-U8Y">
+                                <rect key="frame" x="152.5" y="388.5" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMr-NE-6Mo">
+                                <rect key="frame" x="156.5" y="519.5" width="62" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="取消候位"/>
+                                <connections>
+                                    <action selector="testNumber:" destination="DuX-1c-zVF" eventType="touchUpInside" id="3xA-hD-reA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZDJ-73-5Tz" firstAttribute="centerX" secondItem="N5F-22-85v" secondAttribute="centerX" id="0PZ-jK-BRT"/>
+                            <constraint firstItem="ZDJ-73-5Tz" firstAttribute="top" secondItem="fE5-Gn-6NW" secondAttribute="bottom" constant="40" id="4aM-gh-3hi"/>
+                            <constraint firstItem="fE5-Gn-6NW" firstAttribute="centerX" secondItem="N5F-22-85v" secondAttribute="centerX" id="Cxv-HR-Ysq"/>
+                            <constraint firstItem="fE5-Gn-6NW" firstAttribute="top" secondItem="Mvo-bp-6br" secondAttribute="bottom" constant="40" id="Frl-dl-7Ze"/>
+                            <constraint firstItem="PnU-rT-U8Y" firstAttribute="centerX" secondItem="N5F-22-85v" secondAttribute="centerX" id="Fy6-gS-Eeg"/>
+                            <constraint firstItem="Mvo-bp-6br" firstAttribute="centerX" secondItem="N5F-22-85v" secondAttribute="centerX" id="Wou-QW-qPL"/>
+                            <constraint firstItem="sMr-NE-6Mo" firstAttribute="top" secondItem="lJI-fX-pQk" secondAttribute="bottom" constant="20" id="YeD-nK-CHi"/>
+                            <constraint firstItem="ZDJ-73-5Tz" firstAttribute="centerY" secondItem="N5F-22-85v" secondAttribute="centerY" id="hgu-8B-oYY"/>
+                            <constraint firstItem="lJI-fX-pQk" firstAttribute="top" secondItem="PnU-rT-U8Y" secondAttribute="bottom" constant="40" id="rfz-Be-Dhv"/>
+                            <constraint firstItem="sMr-NE-6Mo" firstAttribute="centerX" secondItem="N5F-22-85v" secondAttribute="centerX" id="sjc-Gl-vdp"/>
+                            <constraint firstItem="PnU-rT-U8Y" firstAttribute="top" secondItem="ZDJ-73-5Tz" secondAttribute="bottom" constant="40" id="wbJ-DX-K7U"/>
+                            <constraint firstItem="lJI-fX-pQk" firstAttribute="centerX" secondItem="N5F-22-85v" secondAttribute="centerX" id="xzp-uf-Ej4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="p0Q-uZ-sfB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="候位" image="Reservation" id="h2j-r5-wtS"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="cancelNumberBtuuon" destination="sMr-NE-6Mo" id="cD7-pa-HXm"/>
+                        <outlet property="displayNumber" destination="fE5-Gn-6NW" id="BY6-LU-vfh"/>
+                        <outlet property="getNumberButton" destination="ZDJ-73-5Tz" id="D15-Bm-lh9"/>
+                        <outlet property="myNumber" destination="lJI-fX-pQk" id="E3q-MK-Q5B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cnx-gh-Fa3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2516" y="632"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Reservation" width="32" height="32"/>
+    </resources>
+</document>
